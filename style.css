@@ -166,12 +166,22 @@ header {
 }
 
 .projetAnimations {
+    background-image: url("../animations-main/leo.jpg");
+    transition: 1s ease-in-out;
+}
+
+.projetAnimations:hover {
     background-image: url("../animations-main/projetAnim.jpg");
     background-size: cover;
     background-position: left;
 }
 
 .projetPanneau {
+    background-image: url("../panneaux/images/paysage3.jpg");
+    transition: 1s ease-in-out;
+}
+
+.projetPanneau:hover {
     background-image: url("./images/projetPanneau.png");
     background-size: cover;
 }
