@@ -1,7 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+/* COLORS 
+
+light blue: #9CC3D5
+dark blue: #00203F
+yellow: #FDD20E
+
+*/
+
 body {
     margin: 0;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 p {
@@ -17,9 +26,10 @@ a {
 
 header {
     height: 100vh;
-    background-image: url("./images/potato.jpg");
+    background-image: url("./images/abstract.svg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,42 +48,47 @@ header {
     height: 90%;
     display: flex;
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .logo {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 1.25rem;
-    color: lightblue;
+    color: #00203F;
 }
 
 .button {
-    border: 2px lightblue solid;
+    border: 2px #00203F solid;
     font-weight: bold;
     border-radius: 37% 55% 43% 70% / 42% 49% 51% 58%;
     padding: 15px 25px;
-    transition: 1s ease;
-    color: lightblue;
+    transition: 0.25s ease-in-out;
+    color: #00203F;
     background-color: transparent;
 }
 
 .button:hover {
     transition: 1s ease;
-    background-color: lightblue;
-    color: black;
+    background-color: #FDD20E;
+    border: 2px #FDD20E solid;
 }
 
 .catchphrase {
     font-weight: bolder;
     font-size: 3.5rem;
-    color: lightblue;
-    background-color: rgba(0, 0, 0, 0.6);
     padding: 5px;
-    width: 50vw;
+    width: 70vw;
     text-align: center;
     text-transform: uppercase;
-    border-radius: 24% 76% 37% 63% / 38% 49% 51% 62%;
     padding: 40px 10px;
+}
+
+.headerImage>p {
+    width: 70vw;
+    text-align: center;
+    font-weight: 500;
 }
 
 .h2 {
@@ -81,7 +96,8 @@ header {
     margin: 40px auto 10px auto;
     font-size: 2rem;
     font-weight: bold;
-    border-bottom: 3px lightblue solid;
+    text-align: center;
+    border-bottom: 3px #00203F solid;
 }
 
 .lorem {
@@ -111,7 +127,6 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    border: 1px solid lightblue;
 }
 
 .panneau:hover {
@@ -135,7 +150,7 @@ header {
     opacity: 0;
     transform: translateY(20%);
     transition: 1s;
-    background-color: #CE963B;
+    background-color: #FDD20E;
     padding: 10px 15px;
 }
 
@@ -146,7 +161,7 @@ header {
 }
 
 .lienDuBas:hover {
-    background-color: lightblue;
+    background-color: #9CC3D5;
     color: black
 }
 
