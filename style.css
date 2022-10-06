@@ -178,11 +178,11 @@ header {
 }
 
 .projetIntroBootstrap {
-    background-image: url("../header/images/gimo.jpg");
+    background-image: url("./images/gimo.jpg");
 }
 
 .projetPricing {
-    background-image: url("../header/images/pricing.png");
+    background-image: url("./images/pricing.png");
 }
 
 .projetPanneau {
