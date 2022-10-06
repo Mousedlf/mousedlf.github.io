@@ -143,13 +143,14 @@ header {
 .projetDescription {
     opacity: 0;
     transform: translateY(30%);
-    transition: 1s;
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .lienDuBas {
     opacity: 0;
     transform: translateY(20%);
-    transition: 1s;
+    transition: 1s background-color;
     background-color: #FDD20E;
     padding: 10px 15px;
 }
@@ -174,6 +175,14 @@ header {
     background-image: url("../animations-main/projetAnim.jpg");
     background-size: cover;
     background-position: left;
+}
+
+.projetIntroBootstrap {
+    background-image: url("../header/images/gimo.jpg");
+}
+
+.projetPricing {
+    background-image: url("../header/images/pricing.png");
 }
 
 .projetPanneau {
