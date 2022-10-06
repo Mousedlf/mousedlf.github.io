@@ -1,0 +1,11 @@
+.carousel {
+    width: 100%;
+}
+
+.gauges>div {
+    margin: 5px;
+}
+
+.card {
+    margin: 5px;
+}
